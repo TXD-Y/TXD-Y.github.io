@@ -1,18 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-        <head>
-                <title>txd-y</title>
-                <meta charset="UTF-8">
-                <style>
-                        body {
-                        background-color:#B00100;
-                        color:#FFF;
-                        }
-                </style>
-                <script src="validate.js"></script>
-        </head>
-        <body>
-                <h1>Thyme's Unsanctioned Niche</h1>
-                <p>Nobody tell ( ͡° ͜ʖ ͡°)</p>
+<html lang="en-US">
+<head>
+<title>txd-y</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="validate.js"></script>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Times New Roman, serif;
+  background-color:#B00100;
+  color:#FFFFFF;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #B00100;
+  padding: 20px 10px;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #854854;
+  color: Gainsboro
+}
+
+.header a.active {
+  background-color: #cf6767;
+  color: #fa2a2a;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+
+<div class="header">
+  <a href="https://www.w3schools.com/" class="logo">Our lord and saviour</a>
+  <div class="header-right">
+    <a class="active" href="https://maps.google.com/">Home</a>
+    <a href="https://docs.google.com/document/d/1-2SRyrLqzKigw4w6Y58dw41rWdISCNicAvIiZjVK3ho/edit?usp=sharing">Schedule</a>
+    <a href="https://www.allrecipes.com">Recipies</a>
+  </div>
+</div>
+<div style="padding-left:20px">
+  <h1>Thyme's Unsanctioned Niche</h1>
+  <p>No one tell... </p>
+</div>
 </body>
-</html>  
+</html> 
