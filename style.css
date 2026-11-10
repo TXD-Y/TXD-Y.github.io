@@ -1,0 +1,51 @@
+
+* {
+box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Times New Roman, serif;
+  background-color:#B00100;
+  color:#FFFFFF;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #fa2a2a;
+  padding: 20px 10px;
+font-family: Copperplate, Papyrus, fantasy;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #854854;
+  color: Gainsboro
+}
+
+.header a.active {
+  background-color: #cf6767;
+  color: #ffffff;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
